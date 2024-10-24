@@ -1,0 +1,58 @@
+html,
+body {
+    font-family:"Noto Sans TC";
+    border: 3px solid red;
+}
+
+.sporty{
+    color: #dd4654;
+}
+
+
+.casual{
+    color:#0b4aa1;  
+    
+}
+
+.formal{
+    color:#4d2a1c;
+    
+}
+
+h2 {
+    font-size: 90px;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: normal;
+
+    /*text related properties*/
+text-transform:capitalize;
+text-indent: 20px;
+letter-spacing: 2px;
+word-spacing: 5px;
+text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+}
+p{
+    text-transform:lowercase 
+}
+
+a .sporty {
+    background-color: #dd4654;
+    color: white;
+    
+}
+
+a .formal {
+background-color: #4d2a1c;
+color: white;
+}
+
+a .casual {
+background-color: #0b4aa1;
+color: white;
+}

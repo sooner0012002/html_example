@@ -1,0 +1,10 @@
+"liveServer.settings.AdvanceCustomBrowserCmdLine":
+"",
+"files.exclude":{
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.CVS": true,
+    "88/.DS_Store": true,
+    "**/Thumbs.db": true},
+}
