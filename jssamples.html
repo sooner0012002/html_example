@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    const numbers =[1,2,3,4,5];
+    const callback=(value) => {
+        console.log('Processing value: ${value}');
+        return callback;
+    };
+    const sum =numbers.reduce((acc,value)=>{
+        return acc(value);
+    },callback);
+    
+    
+    const people = [
+        {name:"john", age:60},
+        {name:"ryan", age:25},
+        {name:"ann", age:18},
+        {name:"anna", age:22}];
+    const totalAge=people.reduce((accumulator,person)=>{
+        return accumulator +person.age;
+    },0);
+    console.log(totalAge);
+    
+const companies = [
+   {name: "company one",category: "retails", start:1992, end:2024},
+   {name: "company two",category: "finance", start:1971, end:2020},
+   {name: "company three",category: "wholeSales", start:1988, end:1999},
+   {name: "company four",category: "wholeSales", start:1996, end:2010},
+   {name: "company five",category: "retails", start:1960, end:2004},
+   {name: "company six",category: "finance", start:1992, end:2011},
+   {name: "company seven",category: "finance", start:1986, end:2009},
+   {name: "company eight",category: "retails", start:1977, end:2012},
+   {name: "company nine",category: "retails", start:1992, end:202},
+   {name: "company ten",category: "wholeSales", start:1992, end:1997}];
+const ages=[33,12,45,77,60,23,7,80,55,67,29,16]
+
+
+    
+</body>
+</html>

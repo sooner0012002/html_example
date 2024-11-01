@@ -1,0 +1,33 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+ul Li:first-child {
+  background-color: aqua;
+}
+
+Ul Li:last-child {
+  background-color: blue;
+}
+
+ul Li:nth-child(odd) {
+    color: yellow;
+}
+}
+
+ul li:nth-child(even) {
+    color:red;
+}
+
+ul li:nth-child(4) {
+    color: rgb(42,165,71);
+}
+
+Ul Li:nth-child(3n+1) {
+    background-color: ;rgb(144,42,165);
+}
+
+p i:only-child {
+    background: black;
+    color: white;
+}
